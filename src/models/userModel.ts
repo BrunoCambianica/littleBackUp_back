@@ -18,7 +18,7 @@ export const UserSchema = new Schema({
         type: String
     },
     coursesTime: {
-        type: String
+        type: Number
     },
     role: {
         type: String
