@@ -2,35 +2,23 @@ import * as mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-export const UserSchema = new Schema({
-    firstName: {
+export const QuestionnaireSchema = new Schema({
+    title: {
         type: String,
-        required: 'Enter a first name'
+        required: 'Enter a title'
     },
-    lastName: {
+    description: {
         type: String,
-        required: 'Enter a first name'
+        required: 'Enter a description'
     },
-    email: {
+    urlVideo: {
         type: String
     },
-    password: {
-        type: String
-    },
-    coursesTime: {
-        type: Number
-    },
-    role: {
-        type: String
-    },
-    photo: {
+    urlImage: {
         type: String
     },
     credits: {
         type: Number
-    },
-    participatedLessons: {
-        type: Array
     },
     updated_date: {
         type: Date,

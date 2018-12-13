@@ -1,0 +1,20 @@
+cours
+flag
+titre
+description
+url video
+url image
+credits validés 
+un prof peut donner des credits (+5 ou +10)
+credits par cours (un montant par cours)
+un user qui a participé à un cours
+
+
+questionnaire lié à un cours 
+il ne peut y avoir qu'un seul questionnaire
+credits validés par questionnaire
+
+questions:
+credit
+description
+reponses (bonne/fausse reponse)
