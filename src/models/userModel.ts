@@ -26,6 +26,9 @@ export const UserSchema = new Schema({
     photo: {
         type: String
     },
+    credits: {
+        type: String
+    },
     updated_date: {
         type: Date,
         default: Date.now
