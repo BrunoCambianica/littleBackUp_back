@@ -1,0 +1,10 @@
+export default {
+    database: {
+        type: 'mongodb',
+        name: 'littlebackup',
+        port: 45512,
+        user: '',
+        password: '',
+        server: 'ds245512.mlab.com'
+    }
+}
